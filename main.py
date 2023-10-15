@@ -26,6 +26,7 @@ pygame.display.set_caption('Платформер')
 font = pygame.font.Font("fonts/hello-world.ttf", 70)
 font_score = pygame.font.Font("fonts/hello-world.ttf", 35)
 
+
 def count_levels():
     folder_path = "levels"
     counter = 0
@@ -35,6 +36,7 @@ def count_levels():
             if match:
                 counter += 1
     return counter
+
 
 # Цвета
 white = (255, 255, 255)
